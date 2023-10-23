@@ -1,0 +1,4 @@
+This code is the next part of MS5 it consist of more functionality addition to MS5_2.
+Along with the functions ListItems(), saveRecs() and LoadRecs() AddItem() another function is added to it like 
+The removeItem() function first displays the whole data of the inventory along with action title and then removes an item from the system by prompting the user to select an item from a list of items that is defined in selectItem() function, then it removes the selected item from the system. Before removing it displays the information of the object being removed by using ostream operator overloaded in PosIO.h
+
