@@ -1,0 +1,14 @@
+In line number 27 of your output:
+The output should be:
+> 2023/9/7, 14:30
+               ^
+But your output is: 
+> 2023/9/7, 14:^C==161873== 
+               ^
+
+Unmatched character details:
+The character in column 16 is supposed to be:
+  [3] ASCII code(51)
+but you printed
+  [^] ASCII code(94)
+

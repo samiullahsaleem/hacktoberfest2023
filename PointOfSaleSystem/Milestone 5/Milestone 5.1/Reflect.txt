@@ -1,0 +1,8 @@
+In MS5_1 the there is implementation of the class PosApp, which is a point-of-sale application that manages inventory of items in a store.It consist of 
+PosApp::PosApp(const char* filename): Constructor that initializes the class with a filename and sets some member variables to default values.
+PosApp::~PosApp(): Destructor that deallocates memory used by Iptr, an array of pointers to Item objects.
+PosApp::run(): A function that runs the point-of-sale application and displays a menu of options for the user to select from.
+PosApp::listItems(bool isSelect): A function that lists the items in the inventory and calculates the total asset value of the inventory. If isSelect is true, it prompts the user to select an item from the list.
+PosApp::saveRecs(): A function that saves the inventory data to a file.It calls the save function of item class
+PosApp::loadRecs(): A function that loads the inventory data from a file and creates Item objects based on the data.It uses the load function of item class
+Conclusion: This portion is concerned with creation of class with the implementation of two functions saveRecs and load Recs
